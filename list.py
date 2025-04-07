@@ -19,11 +19,11 @@ print("""
 추천합니다
       """) 
 
-# 여기서 AI가 돌아야죠
+# AI가 노래를 추천하는 부분
 ai_song = random.choice(songs)
 dd = ["두", "두", "두", "두둥"]
 for d in dd:
     print(d)
     time.sleep(1)
-    
-print(f"제가 추천한곡은 {ai_song}입니다.") 
+
+print(f"제가 추천한 곡은 {ai_song}입니다.") 
